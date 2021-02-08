@@ -1,0 +1,47 @@
+
+spring:
+  profiles:
+    active: test
+
+server:
+  port: ${port:9000}
+
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+name: test-treesap-amis
+environment: testing
+enabled: true
+logging:
+  level:
+    treesap: DEBUG
+amis:
+  system-name: enterprise
+  host: kris-test-centos.theforest.sap
+  protocol: https
+  port: 8443
+  rsa-token: TJJMDSAQ63VF6TNZ2YO6
+  rsa-token-type: RSA_SERVICE_TOKEN
+  pswd: '!Amis1234'
+  service-act: servicetest1
+
+
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+name: prod-treesap-amis
+environment: production
+enabled: false
+amis:
+  system-name: enterprise
+  host: kris-test-centos.theforest.sap
+  protocol: https
+  port: 8443
+  rsa-token: TJJMDSAQ63VF6TNZ2YO6
+  rsa-token-type: RSA_SERVICE_TOKEN
+  pswd: '!Amis1234'
+  service-act: servicetest1
