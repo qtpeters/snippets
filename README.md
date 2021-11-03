@@ -11,4 +11,4 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 #### Markdown to pdf
 - `sudo apt-get install pandoc texlive-latex-base texlive-fonts-recommended texlive-extra-utils texlive-latex-extra`
-- `pandoc <file name>.md -o <new file name>.pdf`
+- `[pandoc](https://pandoc.org/) <file name>.md -o <new file name>.pdf`
