@@ -14,4 +14,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 - `[pandoc](https://pandoc.org/) <file name>.md -o <new file name>.pdf`
 
 #### Open stuff on Linux
-- xdg-open <thing>
+- `xdg-open <thing>`
+
+#### List all CONFLICTed files in git
+- `git diff --name-only --diff-filter=U`
