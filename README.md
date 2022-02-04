@@ -18,3 +18,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 #### List all CONFLICTed files in git
 - `git diff --name-only --diff-filter=U`
+
+#### Simulate login to bash shell and print everything that happens.
+Great for finding where environment variables come from
+- PS4='+$BASH_SOURCE> ' BASH_XTRACEFD=7 bash -xl 7>&2
