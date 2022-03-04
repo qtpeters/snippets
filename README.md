@@ -38,3 +38,6 @@ sudo apt-get install make build-essential libssl-dev zlib1g-dev \
 libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
 libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
 ```
+#### Command to get the name of a stupid AMI.  I feel like it's hiding in plain sight somewhere on the console.
+aws ec2 describe-images --region us-east-1 --image-ids ami-1234567890EXAMPLE
+
