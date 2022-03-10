@@ -42,3 +42,9 @@ libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-d
 ```
 aws ec2 describe-images --region us-east-1 --image-ids ami-1234567890EXAMPLE
 ```
+
+#### For when you can't change your output device, or rtaher you can change it to anything but sound only comes out of the 
+#### headset no matter what in Ubuntu 20.04+
+```
+rm -r ~/.config/pulse/; sudo shutdown -r now
+```
