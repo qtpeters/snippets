@@ -48,3 +48,18 @@ aws ec2 describe-images --region us-east-1 --image-ids ami-1234567890EXAMPLE
 ```
 rm -r ~/.config/pulse/; sudo shutdown -r now
 ```
+
+
+#### Add logging to networking inside AWS Lambda written in Python 
+```
+import http.client as http_client
+import logging
+
+# Debug logging
+http_client.HTTPConnection.debuglevel = 1
+logging.basicConfig()
+logging.getLogger().setLevel(logging.DEBUG)
+req_log = logging.getLogger("requests.packages.urllib3")
+req_log.setLevel(logging.DEBUG)
+req_log.propagate = True
+```
