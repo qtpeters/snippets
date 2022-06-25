@@ -1,0 +1,11 @@
+### If you’re arguing pro life:
+- You’re arguing that women should be required to have their rapists child. 
+- You’re arguing that women should be required to birth children who are products of incest/incest SA. 
+- You’re arguing that women experiencing ectopic pregnancy’s should be required to go through with the pregnancy, despite the baby having a 100% risk of dying, and the mother being at high risk of internal bleeding and even death. 
+- You’re arguing that women who are mentally Ill and cannot cope by themselves nor effectively care for themselves should be required to also care for another human. 
+- You’re arguing that women who are financially unstable should be required to birth a child, despite not having anywhere near the amount of funds they would need to do so. 
+- You’re arguing that homeless women should be required to birth a baby despite the fact that it will not have a roof over its head or basic necessities it needs to live. 
+- You’re arguing that women should be required to birth a child despite their babies being at risk of serious illnesses that would significantly impair their quality of life and even significantly decrease their life expectancy. 
+- You’re arguing that young mothers who are not ready to be mothers should be required to birth a child anyway. 
+- You’re arguing that older women who are not ready to be mothers should be required to birth a child anyway. 
+- You’re arguing that womens rights should be disregarded and that womens bodies should be controlled by old white men who will never ever in their LIFE have to experience what it is like to need an abortion, have an abortion, nor go through pregnancy, or child birth. I’m truly fucking sick and tired of pro life arguments, which have absolutely no logic nor reasoning. Fuck off pls and thank you.
