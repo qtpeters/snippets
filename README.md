@@ -63,3 +63,6 @@ req_log = logging.getLogger("requests.packages.urllib3")
 req_log.setLevel(logging.DEBUG)
 req_log.propagate = True
 ```
+
+#### Sign last commit
+`git rebase --exec 'git commit --amend --no-edit -n -S' -i <commit hash>`
