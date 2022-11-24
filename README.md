@@ -66,3 +66,6 @@ req_log.propagate = True
 
 #### Sign last commit
 `git rebase --exec 'git commit --amend --no-edit -n -S' -i <commit hash>`
+
+#### Keyboard Backlight on the G7 7500 went dark. The value in this file must be 4, not 0:
+`cat /sys/devices/platform/dell-laptop/leds/dell\:\:kbd_backlight/max_brightness`
