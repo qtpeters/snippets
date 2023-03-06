@@ -72,3 +72,19 @@ req_log.propagate = True
 
 #### List all the conflicts in git
 `git diff --name-only --diff-filter=U --relative`
+
+
+#### A work journal script
+```
+#!/bin/bash
+
+home=/home/qtpeters
+repo=${home}/Repositories/journal
+journal=${repo}/aquia-work-journal.md
+
+cd ${repo}
+vi ${journal}
+git commit -m "Journal Update" ${journal}
+git push
+cd -
+```
