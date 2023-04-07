@@ -88,3 +88,7 @@ git commit -m "Journal Update" ${journal}
 git push
 cd -
 ```
+
+![image](https://user-images.githubusercontent.com/6561793/230577017-c31a1f95-40b6-497a-8a82-ef60979212e7.png)
+
+
