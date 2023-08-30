@@ -73,6 +73,9 @@ req_log.propagate = True
 #### List all the conflicts in git
 `git diff --name-only --diff-filter=U --relative`
 
+#### Manually run a spcific test using cargo.
+- Will print output to console
+`cargo test -- --exact services::nvd::tests::test_iter --nocapture`
 
 #### A work journal script
 ```
